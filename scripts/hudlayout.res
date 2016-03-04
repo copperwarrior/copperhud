@@ -464,7 +464,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"xpos"						"c-37"
-		"ypos"						"r72"
+		"ypos"						"r52"
 		"wide"						"100"
 		"tall"						"50"
 		"MeterFG"					"White"
@@ -577,7 +577,7 @@
 	{
 		"fieldName"					"CHudAccountPanel"
 		"xpos"						"c-80"
-		"ypos"						"c50"
+		"ypos"						"c105"
 		"wide"						"160"
 		"tall"						"180"
 		"visible"					"1"
@@ -588,8 +588,8 @@
 	CHealthAccountPanel
 	{
 		"fieldName"					"CHealthAccountPanel"
-		"xpos"						"c-0"
-		"ypos"						"269"
+		"xpos"						"c-250"
+		"ypos"						"369"
 		"wide"						"f0"
 		"tall"						"24"
 		"visible"					"1"
@@ -874,7 +874,7 @@
 	{
 		"fieldName"					"HudMOTD"
 		"visible"					"1"
-		"enabled"					"0"
+		"enabled"					"1"
 		"wide"						"640"
 		"tall"						"480"
 	}
@@ -935,7 +935,7 @@
 		"ItemFadeOutTime"			"0.3"
 		"topoffset"					"0"
 	}
-	
+		
 	HudHistoryResource 
 	{
 		"fieldName"					"HudHistoryResource"
@@ -1776,12 +1776,12 @@
 	
 	MatchSummary
 	{
-	"fieldName" "MatchSummary"
-	"visible" "0"
-	"enabled" "1"
-	"xpos" "0"
-	"ypos" "0"
-	"wide" "f0"
-	"tall" "f0"
+		"fieldName"					"MatchSummary"
+		"visible"					"0"
+		"enabled"					"1"
+		"xpos"						"0"
+		"ypos"						"0"
+		"wide"						"f0"
+		"tall"						"f0"
 	}
 }
