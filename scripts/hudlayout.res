@@ -1,46 +1,5 @@
 "Resource/HudLayout.res"
-{
-	"Crosshair_vertical"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"VerticalLine"
-		"xpos"			"426"  //was 427
-		"xpos_lodef"	"279"  //was 279
-		"xpos_hidef"	"309"  //was 309
-		"ypos"			"0"  //was 75
-		"zpos"			"-5"
-		"wide"			"2"   //was 1
-		"tall"			"480" //was 154, 480 is hud dims on 1920 x 1080
-		"tall_lodef"	"206"
-		"tall_hidef"	"212"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"255 255 255 255"
-		"alpha" "50"
-	}
 
-	"Crosshair_horizontal"   //this is the one that spans the screen
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"VerticalLine"
-		"xpos"			"0"  //was 40
-		"xpos_lodef"	"279"
-		"xpos_hidef"	"309"
-		"ypos"			"240"  //was 240
-		"zpos"			"-5"
-		"wide"			"854" //was 374
-		"tall"			"1"    //was 1
-		"tall_lodef"	"206"
-		"tall_hidef"	"212"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"255 255 255 255"
-		"alpha" "50"
-	}
 	
 	////////////////////////////////////
 	// START OF HUD CROSSHAIR SECTION //
@@ -412,22 +371,7 @@
 		"wide"						"250"
 		"tall"						"65"
 	}
-	"TransparentViewmodelMask"
-	{
-		//alpha doesn't work for this, you need to change the texture's alpha
-		"ControlName"	"ImagePanel"
-		"fieldName"		"TransparentViewmodelMask"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-100"
-		"wide"			"f0"
-		"tall"			"480"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/REFRACTnormal_transparent"
-		"scaleImage"	"1"
-	}
-	
+
 	HudObjectiveStatus
 	{
 		"fieldName"					"HudObjectiveStatus"
